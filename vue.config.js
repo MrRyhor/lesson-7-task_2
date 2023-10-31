@@ -1,4 +1,5 @@
-const { defineConfig } = require("@vue/cli-service");
+const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  transpileDependencies: true,
-});
+    publicPath: `/lesson-7-task_2/`,
+    transpileDependencies: true,
+})
